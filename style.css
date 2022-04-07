@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  .content {
+    width: 100%;
+    height: 150%;
+    background-image: linear-gradient(
+      to top,
+      rgb(111, 36, 209),
+      rgb(219, 62, 198)
+    );
+  }
+  .first-section .img-profile {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    position:relative;
+    float: left;
+  }
+  .first-section #myname,
+  #myjob,
+  #mygoal {
+      padding-top: 20px;
+      position:static;
+    line-height: 30px;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  hr.dotted {
+    text-align: center;
+    border-top: 9px dotted rgb(92, 88, 88);
+    margin: auto 550px;
+  }
+  .table-info,
+  tr,
+  th,
+  td {
+    border: 1px solid rgb(92, 88, 88);
+    text-align: center;
+  }
+  .table-info,
+  .table-info2 {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .table-info2,
+  tr {
+    border: 1px solid rgb(92, 88, 88);
+    text-align: left;
+  }
+  .btn-block {
+    margin-top: 10px;
+    text-align: center;
+  }
+  button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #ce8c11;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #a3c2c2;
+  }
+  
+  /* for the 2nd page */
+  .content2 {
+    background-image: url(img2.png);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  form {
+    font-family: Roboto, Arial, sans-serif;
+    width: 50%;
+    height: 60%;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 8px #669999;
+    padding: 10px;
+  }
+  input,
+  textarea {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  input {
+    width: calc(100% - 10px);
+    padding: 5px;
+  }
+  textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+  }
+  
